@@ -1,0 +1,33 @@
+# Hugo build output
+/public/
+/resources/
+/hugo_stats.json
+
+# Generated files
+*.bak
+*.tmp
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Node dependencies (if using Hugo with npm or PostCSS)
+node_modules/
+package-lock.json
+yarn.lock
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+
+# Local environment overrides
+.env
+.env.*
+!.env.example
+
+# Backup files
+*~
+# Hugo module cache
+/go.sum
