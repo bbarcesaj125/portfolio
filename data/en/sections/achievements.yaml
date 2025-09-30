@@ -1,0 +1,24 @@
+# Section information
+section:
+  name: Achievements
+  id: achievements
+  enable: true
+  weight: 6
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your achievements achievements
+achievements:
+- title: Blogger
+  image: /images/achievements/blogging.webP
+  summary: Wrote hundreds of articles on [Tootips](https://tootips.com) and [CreativeWire](http://creativewire.one) covering various topics such as technology, science, psychology, etc. 
+- title: Graduation
+  image: /images/achievements/graduation.webP
+  summary: Received a _Concepteur Développeur d'Applications_ degree in Information Technology from FORMEXT in France (equivalent to an American BSIT or B.Sc IT).
+- title: Learning
+  image: /images/achievements/learning.webP
+  summary: Always looking forward to the next thing I should learn!
+# - title: Award Winner
+#   image: /images/sections/achievements/woman-winner.jpg
+#   summary: Wined best paper award at IEE Conference 2020.

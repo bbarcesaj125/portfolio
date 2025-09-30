@@ -1,0 +1,24 @@
+# Section information
+section:
+  name: Extras
+  id: achievements
+  enable: true
+  weight: 6
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your achievements achievements
+achievements:
+- title: Blogueur
+  image: /images/achievements/blogging.webP
+  summary: J'ai rédigé une centaines d'articles anglophones sur [Tootips](https://tootips.com) et [CreativeWire](http://creativewire.one) abordant plusieurs thèmes tels que les sciences, la technologie, la culture Open source, le monde de Linux, etc. 
+- title: Concepteur Développeur d'Applications
+  image: /images/achievements/graduation.webP
+  summary: J'ai obtenu un titre professionnel (Bac +3/4) _Concepteur Développeur d'Applications_ en informatique.
+- title: Ouverture d'esprit
+  image: /images/achievements/learning.webP
+  summary: J'aime apprendre de nouveaux langages et je pratique une veille régulière sur les dernières évolutions dans le domaine du développement informatique. 
+# - title: Award Winner
+#   image: /images/sections/achievements/woman-winner.jpg
+#   summary: Wined best paper award at IEE Conference 2020.

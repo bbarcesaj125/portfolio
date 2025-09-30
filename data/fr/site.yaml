@@ -1,0 +1,20 @@
+# Copyright Notice
+copyright: © 2020 Copyright.
+
+# Meta description for your site.  This will help the search engines to find your site.
+description: Portfolio et blog personnel de Youssef FELLIAUI.
+
+# Other options
+# Specify the list of custom menus that you want to show in the top navbar.
+# They will be separated by a divider from the main menus.
+customMenus:
+- name: Tootips
+  url: https://www.tootips.com
+  
+# Specify OpenGraph Headers
+openGraph:
+  title: Blog de Youssef FELLIAUI
+  type: website
+  description: Portfolio et blog personnel de Youssef FELLIAUI.
+  image: images/author/yusuf.png
+  url: https://www.felliaui.email

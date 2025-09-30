@@ -1,0 +1,61 @@
+# Section information
+section:
+  name: A propos
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Développeur / concepteur informatique et blogueur
+# your company information
+company:
+  name: Tootips
+  url: "https://www.tootips.com"
+
+# your resume. this file path should be relative to you "static" directory
+# resume: "files/cv-youssef-felliaui-fr.pdf"
+
+# a summary about you
+summary: "Passionné par l'informatique, je suis toujours à la recherche des dernières nouveautés liées au développement informatique."
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+  - name: Github
+    icon: "fab fa-github"
+    url: "https://www.github.com/bbarcesaj125"
+
+  - name: Email
+    icon: "fas fa-envelope"
+    url: "youssef@felliau.email"
+
+  - name: LinkedIn
+    icon: "fab fa-linkedin"
+    url: "https://www.linkedin.com/in/youssef-felliaui-588327aa/"
+
+# Your soft skills
+# Give the percentage between 50 to 100 with 5 intervals.
+# Currently supported colors: blue, yellow, pink, green, sky, orange
+badges:
+  - type: soft-skill-indicator
+    name: Sens du détail
+    percentage: 85
+    color: blue
+  - type: soft-skill-indicator
+    name: Esprit d'équipe
+    percentage: 90
+    color: yellow
+  - type: soft-skill-indicator
+    name: Méthodique
+    percentage: 85
+    color: green
+  - type: soft-skill-indicator
+    name: Autonome
+    percentage: 85
+    color: sky
+  - type: soft-skill-indicator
+    name: Sens de l’écoute
+    percentage: 95
+    color: orange

@@ -1,0 +1,65 @@
+# Section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+  
+# Filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Arduino
+  filter: "arduino"
+- name: Personal
+  filter: "personal"
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+- name: CreativeWire
+  logo: /images/projects/creativewire-logo.png
+  role: Author
+  timeline: "August 2017 - Present"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: "https://www.creativewire.one"  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: CreativeWire is a blog centered around science and technology with a bit of humor.
+  tags: ["personal"]
+
+- name: Tootips
+  logo: /images/projects/tootips-logo-300x300.png
+  role: Author
+  timeline: "May 2012 - Present"
+  #repo: https://github.com/tensorflow/tensorflow
+  url: "https://www.tootips.com"
+  summary: Tootips is blog about Open Source applications and Linux in general.
+  tags: ["personal"]
+
+- name: A wireless letter/parcel detector
+  logo: /images/projects/arduino-logo.png
+  role: Creator
+  timeline: "Nov 2020 - Present"
+  #url: "https://www.example.com"
+  summary: This an ongoing Arduino project which aims to create a wireless system that notifies the user when a new letter makes its way to his/her mailbox using Arduino and various sensors.
+  tags: ["arduino","iot"]
+
+- name: Dotlessdots
+  logo: /images/projects/archlinux-logo.png
+  role: Owner
+  timeline: "Oct 2018 - Present"
+  repo: https://github.com/bbarcesaj125/dotlessdots
+  #url: ""
+  summary: My Archlinux dotfiles.
+  tags: ["hobby", "fun"]
+
+- name: IMDB Cover Downloader
+  logo: /images/projects/imdb-logo.png
+  role: Owner
+  timeline: "Nov 2020 - Present"
+  #repo: https://github.com/hossainemruz/toha
+  summary: A _WIP_ Python application that allows the user to search IMDB and download movies' posters.
+  tags: ["hobby","personal"]

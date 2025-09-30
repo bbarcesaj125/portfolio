@@ -1,0 +1,49 @@
+# Section information
+section:
+  name: Compétences
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: JavaScript
+  logo: "/images/skills/javascript.png"
+  summary: "Je suis capable de produire un code JavaScript qui respecte les dernières règles du standard ECMAScript."
+  #url: "https://kubernetes.io/"
+
+- name: Python
+  logo: "/images/skills/python.png"
+  summary: "Je peux créer des applications multi-composants avec Python."
+  #url: "https://golang.org/"
+
+- name: GraphQL
+  logo: "/images/skills/graphql.png"
+  summary: "J'ai déjà utilisé GraphQL (Apollo) dans des projets."
+
+- name: ReactJS
+  logo: "/images/skills/react.png"
+  summary: "Je peux créer des interfaces complètes avec ReactJS."
+
+- name: Docker
+  logo: "/images/skills/docker.svg"
+  summary: "Capable de créer et d'utiliser des containers Docker."
+  #url: "https://www.docker.com/"
+
+- name: MongoDB
+  logo: "/images/skills/mongodb.png"
+  summary: "Ma base de données NoSQL préférée."
+  #url: "https://prometheus.io/"
+
+- name: Linux
+  logo: "/images/skills/linux.png"
+  summary: "J'utilise Linux en tant que mon OS principal depuis au moins 10 ans."
+
+- name: Git
+  logo: "/images/skills/git.png"
+  summary: "`git push youssef developper` 😎"
+  url: "https://git-scm.com/"

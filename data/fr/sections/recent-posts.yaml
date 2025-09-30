@@ -1,0 +1,7 @@
+# Section information
+section:
+  name: Derniers articles
+  id: recent-posts
+  enable: true
+  weight: 5
+  showOnNavbar: true
